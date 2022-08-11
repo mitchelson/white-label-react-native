@@ -1,7 +1,7 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 
-// import { Container } from './styles';
+import {Container} from './styles';
 
 const styles = StyleSheet.create({
   container: {
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
 });
 
 const Home: React.FC = () => {
-  return <View style={styles.container} />;
+  return <Container style={styles.container} />;
 };
 
 export default Home;
